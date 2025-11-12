@@ -13,6 +13,7 @@ const comparableSales = [
   { domain: "refi.com", price: "$500,000" },
   { domain: "bico.com", price: "$350,000" },
   { domain: "fora.com", price: "$285,000" },
+  { domain: "miri.com", price: "$199,995" },
 ];
 
 const Index = () => {
@@ -99,7 +100,7 @@ const Index = () => {
           <DialogHeader>
             <DialogTitle className="text-2xl text-foreground">Comparable Sales</DialogTitle>
             <DialogDescription className="text-muted-foreground">
-              Recent premium four-letter domain sales
+              Premium four-letter domain sales
             </DialogDescription>
           </DialogHeader>
           
@@ -116,7 +117,7 @@ const Index = () => {
           </div>
 
           <div className="pt-4 space-y-3">
-            <p className="text-sm text-muted-foreground text-center mb-4">
+            <p className="text-base font-semibold text-foreground text-center mb-4 bg-primary/10 p-3 rounded-lg border border-primary/30">
               Is your budget in a similar price range?
             </p>
             
@@ -149,7 +150,7 @@ const Index = () => {
             </DialogDescription>
           </DialogHeader>
           
-          <div className="py-6">
+          <div className="py-6 space-y-4">
             <div className="p-6 rounded-lg bg-secondary/50 border border-primary/30 text-center space-y-3">
               <div className="text-4xl mb-2">📧</div>
               <p className="text-sm text-muted-foreground mb-2">Email us at:</p>
@@ -159,6 +160,12 @@ const Index = () => {
               >
                 domainassetmanager@gmail.com
               </a>
+            </div>
+            
+            <div className="p-4 rounded-lg bg-muted/50 border border-border">
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <strong className="text-foreground">Please note:</strong> If your inquiry doesn't include a solid offer in comparable sales price range, you are unlikely to receive a response.
+              </p>
             </div>
           </div>
 
