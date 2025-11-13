@@ -57,7 +57,7 @@ const Index = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">
-            A Premium <span className="text-primary font-semibold">CVCV</span> Domain
+            A Premium <span className="text-primary font-semibold">VCVC</span> Domain
           </p>
         </div>
 
