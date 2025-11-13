@@ -9,11 +9,11 @@ import {
 } from "@/components/ui/dialog";
 
 const comparableSales = [
-  { domain: "lola.com", price: "$550,000" },
-  { domain: "refi.com", price: "$500,000" },
-  { domain: "bico.com", price: "$350,000" },
-  { domain: "fora.com", price: "$285,000" },
-  { domain: "miri.com", price: "$199,995" },
+  { domain: "arab.com", price: "$225,000" },
+  { domain: "adib.com", price: "$117,000" },
+  { domain: "igen.com", price: "$100,000" },
+  { domain: "ipal.com", price: "$59,000" },
+  { domain: "oder.com", price: "$100,000" },
 ];
 
 const Index = () => {
