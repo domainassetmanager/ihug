@@ -66,7 +66,7 @@ const Index = () => {
           <div className="p-6 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
             <div className="text-4xl mb-3">✨</div>
             <h3 className="text-lg font-semibold text-foreground mb-2">Premium</h3>
-            <p className="text-sm text-muted-foreground">Four-letter CVCV pattern domain</p>
+            <p className="text-sm text-muted-foreground">Four-letter VCVC pattern domain</p>
           </div>
           
           <div className="p-6 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
